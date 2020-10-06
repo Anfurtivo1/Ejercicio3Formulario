@@ -26,11 +26,7 @@ namespace Ejercicio3Formularios
         private void btnTipoLetra_Click(object sender, EventArgs e)
         {
             fdlMenuFuente.ShowDialog();
-            fdlMenuFuente.Font;
-            fdlMenuFuente.ShowColor;
-            fdlMenuFuente.ShowEffects;
-            fdlMenuFuente.AllowScriptChange;
-            fdlMenuFuente.Color;
+            txbTexto.Font = fdlMenuFuente.Font;
         }
     }
 }

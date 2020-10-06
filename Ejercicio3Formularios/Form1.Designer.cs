@@ -83,7 +83,8 @@
             this.Controls.Add(this.txbTexto);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cajas de dialogo";
             this.ResumeLayout(false);
             this.PerformLayout();
 
